@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Guía práctica sobre la Seguridad Social y el Desempleo en España: conoce sus conceptos, procesos, financiamiento y prestaciones.">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="ssgg.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <title>Guía práctica sobre la Seguridad Social y el Desempleo</title>
+  <style>
+    /* Reset global y configuración base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background: #f0f2f5;
+      color: #333;
+      padding: 20px;
+      transition: background 0.3s ease;
+    }
+    /* Contenedores centrales */
+    header, nav, main, footer {
+      margin: 0 auto;
+      max-width: 1200px;
+      padding: 20px;
+    }
+    /* Encabezado con gradiente y sombras */
+    header {
+      background: linear-gradient(135deg, #4a90e2, #145ebf);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    /* Navegación con CSS Grid */
+    nav {
+      background: #333;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    nav ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      list-style: none;
+    }
+    nav li {
+      text-align: center;
+    }
+    nav a {
+      display: block;
+      padding: 15px;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    nav a:hover,
+    nav a:focus {
+      background: #575757;
+      transform: translateY(-2px);
+    }
+    /* Enlace para omitir navegación */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000;
+      color: #fff;
+      padding: 8px 12px;
+      z-index: 100;
+      transition: top 0.3s ease;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
+    /* Contenido principal con animación de aparición */
+    main {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      border-bottom: 3px solid #e0e0e0;
+      padding-bottom: 5px;
+      color: #145ebf;
+    }
+    section h3 {
+      font-size: 1.5rem;
+      margin-top: 30px;
+      color: #333;
+    }
+    section p {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    section ul {
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+    section li {
+      margin-bottom: 10px;
+    }
+    /* Pie de página con fondo oscuro */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    /* Animación de aparición */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    /* Adaptaciones responsivas */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      section h2 {
+        font-size: 1.8rem;
+      }
+      section h3 {
+        font-size: 1.3rem;
+      }
+    }
+    /* Estilos para imágenes responsivas */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar a contenido principal</a>
+  <header>
+    <h1>Guía práctica sobre la Seguridad Social y el Desempleo</h1>
+    <p>
+      Descubre en esta web una fuente completa de información sobre la Seguridad Social en España y las prestaciones por desempleo. Conoce su historia, funcionamiento y los desafíos futuros para garantizar el bienestar social.
+    </p>
+  </header>
+  <nav aria-label="Navegación principal">
+    <ul>
+      <li><a href="index.html">Concepto y estructura</a></li>
+      <li><a href="regimen.html">Regímenes</a></li>
+      <li><a href="x.html">Afiliación, altas y bajas</a></li>
+      <li><a href="cotizacion.html">Cotización y recaudación</a></li>
+      <li><a href="presentaciones_SS.html">Prestaciones SS</a></li>
+      <li><a href="presentacion_desempleo.html">Prestaciones desempleo</a></li>
+      <li><a href="subenciones_ayudas.html">Subsidios y ayudas</a></li>
+      <li><a href="obligaciones_derechos.html">Obligaciones y derechos</a></li>
+    </ul>
+  </nav>
+  <main id="main-content">
+    <section id="concepto-estructura">
+      <h2>Concepto y estructura de la Seguridad Social</h2>
+      <article>
+        <h3>Introducción</h3>
+        <p>
+          La Seguridad Social es el sistema público que garantiza a la población protección ante contingencias como enfermedad, desempleo, invalidez y vejez, entre otras. Su función principal consiste en asegurar el bienestar y la estabilidad de los ciudadanos mediante prestaciones y servicios que cubren las necesidades básicas cuando las personas se enfrentan a situaciones que pueden reducir sus ingresos o su calidad de vida. En España, este sistema se ha ido modernizando y perfeccionando con el tiempo, manteniéndose como uno de los pilares fundamentales del Estado de Bienestar.
+        </p>
+        <p>
+          Este sistema no solo protege al individuo, sino que también fomenta la cohesión social, promoviendo una redistribución equitativa de los recursos. A través de aportaciones obligatorias de trabajadores y empleadores, se financia un fondo común destinado a cubrir diversas contingencias, asegurando asistencia en momentos críticos.
+        </p>
+      </article>
+      <article>
+        <h3>Desarrollo</h3>
+        <p>
+          El funcionamiento de la Seguridad Social se sustenta en un complejo entramado de cotizaciones, regímenes y prestaciones. El financiamiento se realiza principalmente a través de las contribuciones obligatorias de trabajadores y empleadores, complementadas en ocasiones por subvenciones estatales y aportaciones específicas en determinados sectores. Este sistema se organiza en distintos regímenes —como el régimen general, el de trabajadores autónomos y otros regímenes especiales—, cada uno adaptado a las características y necesidades particulares de sus beneficiarios.
+        </p>
+        <p>
+          La administración y gestión del sistema está a cargo de organismos públicos, que garantizan la transparencia y correcta distribución de los fondos recaudados. Estos entes se encargan de procesar las cotizaciones, gestionar el pago de prestaciones y supervisar el cumplimiento normativo. Entre las prestaciones destacan pensiones de jubilación, prestaciones por incapacidad, asistencia sanitaria y ayudas por desempleo, diseñadas para mitigar el impacto de situaciones vulnerables.
+        </p>
+        <p>
+          Asimismo, la evolución económica y los cambios en el mercado laboral han impulsado la modernización del sistema, adoptando nuevos mecanismos y adaptaciones que permiten responder con mayor flexibilidad a crisis económicas y transformaciones estructurales.
+        </p>
+        <br>
+        <div>
+          <img src="https://okdiario.com/img/2024/09/23/seguridad-social-admite-que-espana-expulsa-del-mercado-laboral-a-los-mayores-de-55-anos-interior-635x358.jpg" alt="Descripción de la imagen">
+        </div>
+      </article>
+      <article>
+        <h3>Conclusión</h3>
+        <p>
+          Conocer el funcionamiento y la estructura de la Seguridad Social es fundamental tanto para empresarios como para trabajadores, ya que garantiza el acceso a derechos y prestaciones esenciales. Una comprensión clara de estos mecanismos contribuye a una mayor estabilidad laboral y social, así como al fortalecimiento del sistema en beneficio de todos.
+        </p>
+      </article>
+      <article>
+        <h3>Fuentes consultadas</h3>
+        <ul>
+          <li><a href="http://www.seg-social.es" target="_blank" rel="noopener noreferrer">Seguridad Social</a></li>
+          <li><a href="https://www.boe.es" target="_blank" rel="noopener noreferrer">BOE</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Guía práctica sobre la Seguridad Social y el Desempleo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
