@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="description" content="Guía práctica sobre la Seguridad Social y el Desempleo en España: conoce sus conceptos, procesos, financiamiento y prestaciones.">
+  <meta name="robots" content="index, follow">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" type="image/png" href="ssgg.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <title>Guía práctica sobre la Seguridad Social y el Desempleo</title>
+  <style>
+    /* Reset global y configuración base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background: #f0f2f5;
+      color: #333;
+      padding: 20px;
+      transition: background 0.3s ease;
+    }
+    /* Contenedores centrales */
+    header, nav, main, footer {
+      margin: 0 auto;
+      max-width: 1200px;
+      padding: 20px;
+    }
+    /* Encabezado con gradiente y sombras */
+    header {
+      background: linear-gradient(135deg, #4a90e2, #145ebf);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    /* Navegación con CSS Grid */
+    nav {
+      background: #333;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    nav ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      list-style: none;
+    }
+    nav li {
+      text-align: center;
+    }
+    nav a {
+      display: block;
+      padding: 15px;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    nav a:hover,
+    nav a:focus {
+      background: #575757;
+      transform: translateY(-2px);
+    }
+    /* Enlace para omitir navegación */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000;
+      color: #fff;
+      padding: 8px 12px;
+      z-index: 100;
+      transition: top 0.3s ease;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
+    /* Contenido principal con animación de aparición */
+    main {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      border-bottom: 3px solid #e0e0e0;
+      padding-bottom: 5px;
+      color: #145ebf;
+    }
+    section h3 {
+      font-size: 1.5rem;
+      margin-top: 30px;
+      color: #333;
+    }
+    section h4 {
+      font-size: 1.3rem;
+      margin-top: 25px;
+      color: #333;
+    }
+    section p {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    section ul {
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+    section li {
+      margin-bottom: 10px;
+    }
+    /* Pie de página con fondo oscuro */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    /* Animación de aparición */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    /* Adaptaciones responsivas */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      section h2 {
+        font-size: 1.8rem;
+      }
+      section h3 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Guía práctica sobre la Seguridad Social y el Desempleo</h1>
+    <p>En esta web encontrarás información detallada y estructurada sobre los conceptos, procesos y prestaciones que integran la Seguridad Social en España, así como los beneficios y ayudas relacionadas con el desempleo.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Concepto y estructura</a></li>
+      <li><a href="regimen.html">Regímenes</a></li>
+      <li><a href="x.html">Afiliación, altas y bajas</a></li>
+      <li><a href="cotizacion.html">Cotización y recaudación</a></li>
+      <li><a href="presentaciones_SS.html">Prestaciones SS</a></li>
+      <li><a href="presentacion_desempleo.html">Prestaciones desempleo</a></li>
+      <li><a href="subenciones_ayudas.html">Subsidios y ayudas</a></li>
+      <li><a href="obligaciones_derechos.html">Obligaciones y derechos</a></li>
+    </ul>
+    <div class="clear"></div>
+  </nav>
+
+  <main>
+  
+    <section id="prestaciones-ss">
+        <h2>Prestaciones de la Seguridad Social</h2>
+        
+        <h3>Introducción</h3>
+        <p>
+          El sistema de la Seguridad Social ofrece una amplia gama de prestaciones diseñadas para proteger al ciudadano frente a diversas contingencias, proporcionando un respaldo económico y social en momentos críticos de la vida.
+        </p>
+        
+        <h3>Desarrollo</h3>
+        
+        <h4>1. Incapacidad Temporal</h4>
+        <p>
+          La incapacidad temporal es una prestación que se concede cuando el trabajador sufre una enfermedad o accidente que le impide realizar su actividad habitual.
+        </p>
+        <p><strong>Requisitos:</strong> Estar afiliado y en situación de alta en la Seguridad Social, contar con un periodo mínimo de cotización y presentar la correspondiente baja médica.</p>
+        <p><strong>Duración:</strong> Su duración dependerá de la evolución de la condición médica, pudiendo extenderse hasta que se estime la recuperación, y en algunos casos, evolucionar a una incapacidad permanente.</p>
+        
+        <img src="incapacidad_temporal.jpg" alt="temporal" height="300" width="450">
+
+        <h4>2. Invalidez</h4>
+        <p>
+          La prestación por invalidez se otorga cuando la capacidad para trabajar se ve reducida de forma permanente.
+        </p>
+        <p><strong>Tipos:</strong></p>
+        <ul>
+          <li><strong>Parcial:</strong> Cuando la persona presenta una limitación para trabajar en determinadas actividades, pero aún puede ejercer alguna actividad profesional.</li>
+          <li><strong>Total:</strong> Cuando el trabajador se encuentra imposibilitado para ejercer cualquier tipo de trabajo, aunque conserva capacidad para realizar actividades básicas de la vida diaria.</li>
+          <li><strong>Absoluta:</strong> Cuando se demuestra la incapacidad absoluta para trabajar, impidiendo por completo el desempeño de cualquier labor.</li>
+        </ul>
+        
+        <img src="invalidez.png" alt="temporal" height="300" width="550">
+
+
+        <h4>3. Maternidad/Paternidad</h4>
+        <p>
+          Estas prestaciones permiten a los padres compatibilizar la vida laboral con el cuidado de sus hijos.
+        </p>
+        <p><strong>Permisos:</strong> Los trabajadores tienen derecho a permisos retribuidos tanto por maternidad como por paternidad.</p>
+        <p><strong>Cuantía:</strong> Se abona un subsidio basado en la base reguladora del trabajador, asegurando un porcentaje del salario habitual.</p>
+        <p><strong>Duración:</strong> La duración del permiso varía según la legislación vigente, contemplando periodos prenatales y postnatales en el caso de la maternidad y un periodo específico para la paternidad.</p>
+        
+        <img src="maternidad.jpg" alt="temporal" height="300" width="450">
+
+
+        <h4>4. Jubilación</h4>
+        <p>
+          La pensión de jubilación se fundamenta en el cumplimiento de ciertos requisitos relacionados con la edad y los periodos cotizados.
+        </p>
+        <p><strong>Edad:</strong> La edad de jubilación se determina según la normativa vigente, pudiendo existir modalidades de jubilación anticipada o parcial.</p>
+        <p><strong>Periodos de cotización:</strong> Se requieren determinados años de contribución a la Seguridad Social para acceder a una jubilación completa o parcial.</p>
+        <p><strong>Cuantía:</strong> La pensión se calcula en función de la base reguladora y los años cotizados, ajustándose a las particularidades de cada caso.</p>
+       
+        <img src="jubilacion.png" alt="temporal" height="400" width="450">
+
+
+        <h4>5. Otras Prestaciones Menos Frecuentes</h4>
+        <p>
+          Además de las prestaciones mencionadas, el sistema contempla otras ayudas que responden a situaciones específicas:
+        </p>
+        <ul>
+          <li><strong>Viudedad:</strong> Prestación que se otorga a los cónyuges supervivientes para asegurar un ingreso mínimo tras el fallecimiento del asegurado.</li>
+          <li><strong>Orfandad:</strong> Beneficio destinado a los hijos menores de edad o incapacitados de un trabajador fallecido, con el fin de proporcionar un sustento económico.</li>
+        </ul>
+        
+        <h3>Conclusión</h3>
+        <p>
+          Contar con un sistema de Seguridad Social robusto es esencial para proteger al trabajador y a sus familiares ante contingencias imprevistas. Es fundamental que cada ciudadano se informe sobre sus derechos y obligaciones para asegurarse de recibir las prestaciones correspondientes en cada etapa de la vida. La legislación vigente y los manuales de la Seguridad Social son herramientas claves para entender y acceder a estos beneficios.
+        </p>
+        
+        <h3>Fuentes consultadas</h3>
+        <ul>
+          <li>Legislación vigente en materia de Seguridad Social</li>
+          <li>Guías oficiales de afiliación de la Tesorería General de la Seguridad Social.</li>
+          <li>Legislación laboral y de la Seguridad Social vigente (como el Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el Texto Refundido de la Ley General de la Seguridad Social).</li>
+            <li><a href="http://www.seg-social.es" target="_blank" rel="noopener noreferrer">Seguridad Social</a></li>
+            <li><a href="https://www.boe.es" target="_blank" rel="noopener noreferrer">BOE</a></li>
+        </ul>
+      </section>
+
+  </main>
+  <footer>
+    <p>&copy; 2025 Guía práctica sobre la Seguridad Social y el Desempleo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
